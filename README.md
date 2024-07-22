@@ -13,6 +13,7 @@ Este proyecto de análisis de datos busca comprobar o descartar cinco hipótesis
 - [Características de la muestra](#característicasdelamuestra)
 - [Hallazgos principales](#hallazgosprincipales)
 - [Resultados](#resultados)
+- [Conclusiones](#conclusiones)
 
 
 ## Introducción 
@@ -90,6 +91,40 @@ Los BPM (Beats Por Minuto) **no tienen influencia** sobre el éxito de las canci
 Las características técnicas **no necesariamente influyen** en el éxito en términos de cantidad de streams. Entre las características evaluadas, **danceability** tendría un mayor impacto, ya que las canciones con un nivel alto registran 28.91% menos streams (promedio).
 
 <img width="761" alt="image" src="https://github.com/user-attachments/assets/802d1f18-9ec9-449e-8ea5-18ca9c04e958">
+
+#### Charts
+
+Existe una **correlación positiva moderada** entre la posición en charts de una canción en Spotify y su comportamiento en charts de otras plataformas como Apple, aunque esta relación no es perfecta y podrían existir otros factores que impactan en la popularidad. 
+
+<img width="511" alt="image" src="https://github.com/user-attachments/assets/c388543c-b342-4fd8-8c6c-54c7fb617430">
+
+#### Playlists
+
+La presencia de una canción en un mayor número de playlists **sí tiene una relación positiva marcada** con un mayor número de streams.
+
+<img width="509" alt="image" src="https://github.com/user-attachments/assets/c1fc1a9c-4d0f-4fdc-a9a4-634acda5fc47">
+
+#### Cantidad de canciones
+
+Se confirma que los artistas con un mayor número de canciones en Spotify registran más streams.
+
+<img width="707" alt="image" src="https://github.com/user-attachments/assets/08b4ac10-4c2f-4981-9480-a4cc4ecfdec4">
+
+## Conclusiones
+
+1. Se debe enfocar esfuerzo en la  visibilidad y promoción de canciones a través de múltiples playlists, ya que tienen un impacto considerable en su éxito en relación con las reproducciones.
+2. Se recomienda que los artistas se mantengan activos en el lanzamiento de nuevos temas, esto influye en su popularidad y cantidad de streams.
+3. Las características técnicas no son determinantes para la cantidad de reproducciones de un tema, pero se podría tomar en cuenta el nivel de danceability al ser el rasgo con mayor influencia. 
+4. Si bien, la aparición en charts de Spotify tiene una relación moderada con el comportamiento de las canciones en otras plataformas, se recomienda integrar este aspecto en la estrategia de lanzamiento debido a la exposición y la percepción de popularidad que genera.
+   
+
+
+
+
+
+
+
+
 
 
 
