@@ -1,6 +1,6 @@
 # Procesamiento de Datos en BigQuery
 
-Indentificación de NULLS
+## Indentificación de NULLS
 
 SELECT
   COUNT (*)
