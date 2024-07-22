@@ -14,7 +14,6 @@
 - [Cuartiles](#cálculodecuartiles)
 - [Correlación de Pearson](#correlacióndepearson)
 
-CORRELACIÓN DE PEARSON
 
 ## NULLS
 
