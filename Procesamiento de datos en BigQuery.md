@@ -8,11 +8,13 @@
 - [Duplicados](#duplicados)
 - [Datos fuera del alcance](#datosfueradelalcance)
 - [Datos discrepantes](#datosdiscrepantes)
-- [Características de la muestra](#característicasdelamuestra)
-- [Hallazgos principales](#hallazgosprincipales)
-- [Resultados](#resultados)
-- [Conclusiones](#conclusiones)
+- [Cambiar tipo de dato](#cambiartipodedato)
+- [Nuevas variables](#nuevasvariables)
+- [Unión de tablas](#unióndetablas)
+- [Cuartiles](#cálculodecuartiles)
+- [Correlación de Pearson](#correlacióndepearson)
 
+CORRELACIÓN DE PEARSON
 
 ## NULLS
 
