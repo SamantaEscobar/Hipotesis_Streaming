@@ -7,8 +7,11 @@ Este proyecto de análisis de datos busca comprobar o descartar cinco hipótesis
 **Tabla de contenido**
 
 - [Introducción](#introducción)
+- [Hipótesis](#hipótesis)
 - [Herramientas](#herramientas)
 - [Proceso](#proceso)
+- [Características de la muestra](#características de la muestra)
+
 
 ## Introducción 
 
