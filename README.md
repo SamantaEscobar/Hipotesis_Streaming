@@ -11,6 +11,8 @@ Este proyecto de análisis de datos busca comprobar o descartar cinco hipótesis
 - [Herramientas](#herramientas)
 - [Proceso](#proceso)
 - [Características de la muestra](#característicasdelamuestra)
+- [Hallazgos principales](#hallazgosprincipales)
+- [Resultados](#resultados)
 
 
 ## Introducción 
@@ -43,6 +45,8 @@ Power BI
 - Creación de nuevas variables: fecha de lanzamiento y cantidad de canciones por artista.
 - Unión de tablas con LEFT JOIN.
 - Creación de tablas auxiliares con WITH.
+- Segmentación de canciones.
+- Cálculo de correlación entre variables.
 
 ## Características de la muestra
 
@@ -64,6 +68,34 @@ La canción más escuchada registra  7.2 veces más streams que el promedio de l
 Destaca que, de los cinco artistas más escuchados, sólo una es mujer: Taylor Swift.
 
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/2148f510-66c9-4aa4-bdb2-fdf27f117439">
+
+Del 2019 al 2022, se registra una mayor cantidad de lanzamientos en el cuarto trimestre del año (Spotify); sin embargo, el pico de streams en se observa en el segundo trimestre.
+
+<img width="411" alt="image" src="https://github.com/user-attachments/assets/0d5c42af-0c35-4292-948f-57f10995e10e">
+
+## Resultados
+
+### Validación de hipótesis
+
+#### BPM
+Los BPM (Beats Por Minuto) **no tienen influencia** sobre el éxito de las canciones en términos de cantidad de streams en Spotify.
+
+<img width="427" alt="image" src="https://github.com/user-attachments/assets/559d823b-7385-4b45-a4b3-61cf135e70d1">
+
+
+<img width="403" alt="image" src="https://github.com/user-attachments/assets/eda5abb9-cd68-45af-8b77-3f2c5c531933">
+
+#### Características técnicas
+
+Las características técnicas **no necesariamente influyen** en el éxito en términos de cantidad de streams. Entre las características evaluadas, **danceability** tendría un mayor impacto, ya que las canciones con un nivel alto registran 28.91% menos streams (promedio).
+
+<img width="761" alt="image" src="https://github.com/user-attachments/assets/802d1f18-9ec9-449e-8ea5-18ca9c04e958">
+
+
+
+
+
+
 
 
 
