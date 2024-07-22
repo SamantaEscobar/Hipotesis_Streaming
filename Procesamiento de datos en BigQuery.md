@@ -1,5 +1,19 @@
 # PROCESAMIENTO DE DATOS EN BIG QUERY
 
+## Contenido
+
+**Tabla de contenido**
+
+- [Nulls](#nulls)
+- [Duplicados](#duplicados)
+- [Datos fuera del alcance](#datosfueradelalcance)
+- [Datos discrepantes](#datosdiscrepantes)
+- [Características de la muestra](#característicasdelamuestra)
+- [Hallazgos principales](#hallazgosprincipales)
+- [Resultados](#resultados)
+- [Conclusiones](#conclusiones)
+
+
 ## NULLS
 
 Se identificaron 50 NULLS en la tabla competition, los cuales se mantuvieron en la base de datos:
