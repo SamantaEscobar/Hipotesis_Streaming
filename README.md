@@ -119,7 +119,13 @@ Se confirma que los artistas con un mayor número de canciones en Spotify regist
 - Las características técnicas no son determinantes para la cantidad de reproducciones de un tema, pero se podría tomar en cuenta el nivel de danceability al ser el rasgo con mayor influencia. 
 
 - Si bien, la aparición en charts de Spotify tiene una relación moderada con el comportamiento de las canciones en otras plataformas, se recomienda integrar este aspecto en la estrategia de lanzamiento debido a la exposición y la percepción de popularidad que genera.
-   
+
+
+   ## LINKS DE INTERÉS
+
+  LOOM:
+
+  PDF DE DASHBOARD: 
 
 
 
