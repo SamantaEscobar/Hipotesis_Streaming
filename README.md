@@ -48,6 +48,30 @@ Power BI
 
 <img width="709" alt="image" src="https://github.com/user-attachments/assets/741bddff-6e7b-46ea-9830-2e3c7b03b9f7">
 
+## Hallazgos principales
+
+Las canciones de la muestra tienen un promedio de 514 millones de streams. 
+
+La distribución del histograma de streams está sesgada hacia la izquierda, lo que significa que hay un pequeño número de canciones que acumulan un gran número de streams. Estas canciones son las que se consideran "éxitos" en plataforma.
+
+<img width="521" alt="image" src="https://github.com/user-attachments/assets/0dc68f42-79c3-4795-8b4f-0fc162ede01a">
+
+La canción más escuchada registra  7.2 veces más streams que el promedio de la muestra.
+
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/22807a57-2143-4270-a6ec-843d2f6352b3">
+
+
+Destaca que, de los cinco artistas más escuchados, sólo una es mujer: Taylor Swift.
+
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/2148f510-66c9-4aa4-bdb2-fdf27f117439">
+
+
+
+
+
+
+
+
 
 
 
