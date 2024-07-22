@@ -124,8 +124,6 @@ Se confirma que los artistas con un mayor número de canciones en Spotify regist
 
    ## LINKS DE INTERÉS
 
-  VÍDEO DE PRESENTACIÓN: 
-
   PDF DE DASHBOARD: https://drive.google.com/file/d/1RLqbQj6aTSJYcm0oyp34eq0-btlSkumB/view?usp=sharing
 
 
