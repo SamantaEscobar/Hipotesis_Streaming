@@ -14,7 +14,8 @@ Este proyecto de análisis de datos busca comprobar o descartar cinco hipótesis
 - [Hallazgos principales](#hallazgosprincipales)
 - [Resultados](#resultados)
 - [Conclusiones](#conclusiones)
-
+- [Links de interés](#linksdeinterés)
+  
 
 ## Introducción 
 
@@ -123,7 +124,7 @@ Se confirma que los artistas con un mayor número de canciones en Spotify regist
 
    ## LINKS DE INTERÉS
 
-  LOOM:
+  VÍDEO DE PRESENTACIÓN:
 
   PDF DE DASHBOARD: 
 
