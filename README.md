@@ -10,7 +10,7 @@ Este proyecto de análisis de datos busca comprobar o descartar cinco hipótesis
 - [Hipótesis](#hipótesis)
 - [Herramientas](#herramientas)
 - [Proceso](#proceso)
-- [Características de la muestra](#características de la muestra)
+- [Características de la muestra](#característicasdelamuestra)
 
 
 ## Introducción 
