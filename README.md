@@ -6,9 +6,7 @@ Este proyecto de análisis de datos busca comprobar o descartar cinco hipótesis
 
 **Tabla de contenido**
 
-[Índice de contenido]
-
-Introducción
+- [Introducción](#introducción)
 
 ## Introducción 
 
