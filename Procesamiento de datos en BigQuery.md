@@ -205,5 +205,120 @@ ON A.artist_s_name = t.artist_s_name;
 
 ```
 
+## CÁLCULO DE CUARTILES
+
+Cálculo de cuartiles a través de la función NTILE(4) OVER (ORDER BY___):
+
+```sql
+
+SELECT 
+  track_id,
+  track_name,
+  artist_s_name,
+  release_date,
+  streams,
+  total_playlists,
+  artist_count,
+  released_year,
+  released_month,
+  released_day,
+  total_canciones,
+  in_spotify_playlists,
+  in_spotify_charts,
+  bpm,
+  `danceability_%`,
+  `valence_%`,
+  `energy_%`,
+  `acousticness_%`,
+  `instrumentalness_%`,
+  `liveness_%`,
+  `speechiness_%`,
+  in_apple_playlists,
+  in_apple_charts,
+  in_deezer_playlists,
+  in_deezer_charts,
+  in_shazam_charts,
+  NTILE(4) OVER (ORDER BY streams) AS quartile_streams,
+  NTILE(4) OVER (ORDER BY total_playlists) AS quartile_total_playlists,
+  NTILE(4) OVER (ORDER BY bpm) AS quartile_bpm,
+  NTILE(4) OVER (ORDER BY `danceability_%`) AS quartile_danceability,
+  NTILE(4) OVER (ORDER BY `valence_%`) AS quartile_valence,
+  NTILE(4) OVER (ORDER BY `energy_%`) AS quartile_energy,
+  NTILE(4) OVER (ORDER BY `acousticness_%`) AS quartile_acousticness,
+  NTILE(4) OVER (ORDER BY `instrumentalness_%`) AS quartile_instrumentalness,
+  NTILE(4) OVER (ORDER BY `liveness_%`) AS quartile_liveness,
+  NTILE(4) OVER (ORDER BY `speechiness_%`) AS quartile_speechiness
+FROM 
+  proyecto-laboratoria-hipotesis.dataset_hipotesis.view_tabla_completa_hipotesis
+
+```
+
+# CORRELACIÓN DE PEARSON
+
+Calcular de la correlación entre dos variables continuas, STREAMS y características técnicas:
+
+```sql
+
+SELECT 
+    CORR(streams, bpm) AS st_bpm_corr,
+    CORR(streams, `danceability_%`) AS str_danceability_corr,
+    CORR(streams, `valence_%`) AS str_valence_corr,
+    CORR(streams, `energy_%`) AS str_energy_corr,
+    CORR(streams, `acousticness_%`) AS str_acousticness_corr,
+    CORR(streams, `instrumentalness_%`) AS str_instrumentalness_corr,
+    CORR(streams, `liveness_%`) AS str_liveness_corr,
+    CORR(streams, `speechiness_%`) AS str_speechiness_corr,
+
+    FROM `proyecto-laboratoria-hipotesis.dataset_hipotesis.view_tabla_completa_hipotesis`
+
+```
+
+Correlación entre STREAMS y aparación de canciones en PLAYLISTS:
+
+```sql
+
+SELECT CORR(streams, total_playlists) AS correlacion_S_P
+FROM `proyecto-laboratoria-hipotesis.dataset_hipotesis.view_tabla_completa_hipotesis`
+
+```
+
+### Normalización de CHARTS
+
+```sql
+
+SELECT 
+    track_id,
+    track_name,
+    (in_spotify_charts - MIN(in_spotify_charts) OVER()) / (MAX(in_spotify_charts) OVER() - MIN(in_spotify_charts) OVER()) AS normalized_spotify_charts,
+    (in_deezer_charts - MIN(in_deezer_charts) OVER()) / (MAX(in_deezer_charts) OVER() - MIN(in_deezer_charts) OVER()) AS normalized_deezer_charts,
+    (in_shazam_charts - MIN(in_shazam_charts) OVER()) / (MAX(in_shazam_charts) OVER() - MIN(in_shazam_charts) OVER()) AS normalized_shazam_charts,
+    (in_apple_charts - MIN(in_apple_charts) OVER()) / (MAX(in_apple_charts) OVER() - MIN(in_apple_charts) OVER()) AS normalized_apple_charts
+FROM 
+   `proyecto-laboratoria-hipotesis.dataset_hipotesis.view_tabla_completa_hipotesis`
+WHERE 
+    in_spotify_charts IS NOT NULL AND
+    in_deezer_charts IS NOT NULL AND
+    in_shazam_charts IS NOT NULL AND
+    in_apple_charts IS NOT NULL;
+
+```
+
+### Correlación de CHARTS en Spotify vs otras plataformas:
+
+```sql
+
+SELECT 
+    CORR(normalized_spotify_charts, normalized_deezer_charts) AS spotify_deezer_corr,
+    CORR(normalized_spotify_charts, normalized_shazam_charts) AS spotify_shazam_corr,
+    CORR(normalized_spotify_charts, normalized_apple_charts) AS spotify_apple_corr
+FROM 
+    `proyecto-laboratoria-hipotesis.dataset_hipotesis.view_charts_normalizados`;
+
+```
+
+
+
+
+
 
 
