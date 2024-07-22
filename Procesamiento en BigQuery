@@ -1,0 +1,12 @@
+# Procesamiento de Datos en BigQuery
+
+### Indentificación de NULLS
+
+SELECT
+  COUNT (*)
+FROM
+  `proyecto-laboratoria-hipotesis.dataset_hipotesis.competition`
+WHERE
+  in_shazam_charts IS NULL
+
+
